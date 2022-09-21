@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 body {
@@ -9,7 +9,7 @@ body {
   font-family: Roboto, Arial;
   margin: 0;
   padding-top: 120px;
-  margin-bottom: 500px;
+  margin-bottom: 300px;
 }
 
 main {
@@ -17,16 +17,7 @@ main {
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.fill-profile,
-.enter-name {
-  display: flex;
-  align-items: center;
-  margin-left: 280px;
+  margin-left: 25%;
 }
 
 .table {
@@ -47,6 +38,8 @@ form {
 }
 
 .fill-profile {
+  display: block;
+  text-align: left;
   font-weight: 500;
   font-size: 17px;
   margin-top: 10px;
@@ -54,16 +47,19 @@ form {
 }
 
 .enter-name {
+  display: block;
   font-size: 15px;
-  width: 800px;
+  width: 60%;
   height: 35px;
   border-radius: 5px;
   border-width: 1px;
+  padding-left: 5px;
+  border-color: lightgray;
 }
 
 .submit,
-.btn-edit,
-.btn-delete {
+.btn-warning,
+.btn-danger {
   font-family: Roboto, Arial;
   background-color: rgb(7, 115, 7);
   border: none;
@@ -76,15 +72,26 @@ form {
   cursor: pointer;
 }
 
-.btn-edit {
+.submit-container {
+  display: block;
+  text-align: left;
+}
+
+.btn-warning {
   background-color: rgb(226, 172, 24);
   color: black;
 }
 
-.btn-delete {
+.btn-danger {
   background-color: darkred;
 }
 
 .tbody-list {
+  background-color: rgb(234, 233, 233);
+  height: 50px;
   margin-top: 50px;
+}
+
+.table {
+  display: none;
 }
