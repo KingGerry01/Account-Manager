@@ -1,15 +1,16 @@
 .header {
-  display: grid;
-  grid-template-columns: 200px 1fr;
+  display: flex;
+  /* grid-template-columns: 200px 1fr; */
   align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   height: 95px;
+  border: solid;
   background-color: #fff;
   z-index: 100;
-  width: 100%;
+  max-width: 100%;
 }
 
 .company-logo {
@@ -28,6 +29,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   margin-right: 30%;
+  white-space: nowrap;
 }
 
 span {
