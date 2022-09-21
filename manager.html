@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SATH Account Manager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/table.css" />
+  </head>
+  <link rel="stylesheet" href="styles/header.css" />
+  </head><link rel="stylesheet" href="styles/general.css" />
+</head>
+  <body>
+    <header class="header">
+      <div class="left section">
+        <img class="company-logo" src="pictures/SATH-logo.png" />
+      </div>
+      <div class="middle-section">
+        <div class="account-update"><span>Account </span>Update</div>
+      </div>
+      <div class="right-section">
+      </div>
+    </header>
+
+    <main>
+      <section class="site-section">
+        <form>
+          <div>
+            <label class="fill-profile">Account Manager</label>
+            <input
+              class="enter-name"
+              type="text"
+              placeholder="Enter Full Name"
+            />
+          </div>
+          <div>
+            <label class="fill-profile">Role</label>
+            <input class="enter-name" type="text" placeholder="Enter Role" />
+          </div>
+          <div>
+            <label class="fill-profile">Email Address</label>
+            <input class="enter-name" type="text" placeholder="Enter Email" />
+          </div>
+          <div>
+            <label class="fill-profile">Client</label>
+            <input class="enter-name" type="text" placeholder="Enter Client" />
+          </div>
+          <div>
+            <label class="fill-profile">Project Worth (&#x20A6;)</label>
+            <input class="enter-name" type="text" placeholder="Enter Worth" />
+          </div>
+          <div>
+            <label class="fill-profile">Project Status</label>
+            <input class="enter-name" type="text" placeholder="Enter Status" />
+          </div>
+          <div>
+            <button class="submit">Submit</button>
+          </div>
+        </form>
+
+        <div class="table">
+          <table class="table-details-container">
+            <thread>
+              <tr class="table-details">
+                <th>Account Manager</th>
+                <th>Role</th>
+                <th>Email</th>
+                <th>Client</th>
+                <th>Worth (&#x20A6;)</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thread>
+            <tbody class="tbody-list">
+              <tr>
+                <td>Olushola Ogundana</td>
+                <td>Business Development Executive</td>
+                <td>oogundana@sathng.com</td>
+                <td>Premium Pensions</td>
+                <td>250 million</td>
+                <td>Ongoing</td>
+                <td>
+                  <button class="btn-edit">Edit</button></a>
+                  <button class="btn-delete">Delete</button></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

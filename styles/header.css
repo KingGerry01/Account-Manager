@@ -1,0 +1,30 @@
+.header {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+}
+
+.company-logo {
+  height: 50px;
+}
+
+.account-update {
+  padding-left: 340px;
+  padding-top: 10px;
+  font-size: 50px;
+  color: #a44253;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+span {
+  border-radius: 10px;
+  background-color: #a44253;
+  color: white;
+  margin: 5px;
+}
